@@ -1,0 +1,16 @@
+baseURL: "https://103254.xyz/"
+languageCode: "zh-cn"
+title: "103254 的博客"
+theme: "papermod"
+hasCJKLanguage: true
+enableRobotsTXT: true
+params:
+  env: production
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  homeInfoParams:
+    Title: "你好，我是 103254"
+    Content: "这是我的博客，记录生活与学习。"
