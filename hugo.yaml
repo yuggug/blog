@@ -15,6 +15,10 @@ menu:
       name: 搜索
       url: /search/
       weight: 10
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 20
 params:
   env: production
   defaultTheme: auto
