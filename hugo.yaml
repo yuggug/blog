@@ -25,6 +25,7 @@ menu:
 params:
   env: production
   defaultTheme: auto
+  DateFormat: "2006年01月02日" 
   ShowReadingTime: true
   ShowWordCount: true
   ShowPostNavLinks: true
