@@ -1,9 +1,13 @@
 baseURL: "https://103254.xyz/"
 languageCode: "zh-cn"
+defaultContentLanguage: "zh-cn"
+timeZone: "Asia/Shanghai"
 title: "明明明的博客"
-theme: "papermod"
+theme: "jijian"
 hasCJKLanguage: true
 enableRobotsTXT: true
+cleanDestinationDir: true
+summaryLength: 20
 outputs:
   home:
     - HTML
@@ -16,7 +20,7 @@ menu:
       url: /search/
       weight: 10
     - identifier: archives
-      name: 归档
+      name: 时光轴
       url: /archives/
       weight: 20
 params:
@@ -28,14 +32,8 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowToc: true
-  homeInfoParams:
-    Title: "你好，我是明明明"
-    Content: "这是我的博客，记录生活与学习。"
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+  TocOpen: true
+  label:
+    text: "明明明的博客"
+    icon: /img/logo.svg
+    iconHeight: 32
