@@ -1,6 +1,5 @@
 ---
-title: "搜索"
+title: "搜索一下"
 layout: "search"
-summary: "搜索"
-placeholder: "输入关键词搜索"
+placeholder: "你想要找些什么呢"
 ---
