@@ -1,16 +1,32 @@
 baseURL: "https://103254.xyz/"
 languageCode: "zh-cn"
-title: "103254 的博客"
+title: "明明明的博客"
 theme: "papermod"
 hasCJKLanguage: true
 enableRobotsTXT: true
+menu:
+  main:
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 10
 params:
   env: production
   defaultTheme: auto
   ShowReadingTime: true
+  ShowWordCount: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+  ShowToc: true
   homeInfoParams:
-    Title: "你好，我是 103254"
+    Title: "你好，我是明明明"
     Content: "这是我的博客，记录生活与学习。"
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
