@@ -4,6 +4,11 @@ title: "明明明的博客"
 theme: "papermod"
 hasCJKLanguage: true
 enableRobotsTXT: true
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 menu:
   main:
     - identifier: search
