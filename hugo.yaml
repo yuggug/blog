@@ -1,5 +1,5 @@
 baseURL: "https://103254.xyz/"
-languageCode: "zh-cn"
+locale: "zh-cn"
 defaultContentLanguage: "zh-cn"
 timeZone: "Asia/Shanghai"
 title: "明明明的博客"
@@ -12,7 +12,6 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON
 menu:
   main:
     - identifier: search
@@ -35,5 +34,3 @@ params:
   TocOpen: true
   label:
     text: "明明明的博客"
-    icon: /img/logo.svg
-    iconHeight: 32
